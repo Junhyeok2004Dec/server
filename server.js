@@ -1,5 +1,6 @@
 var http = require('http');
 var fs = require('fs');
+fs.createReadStream( 'send' );
 var app = http.createServer(function(request,response){
     var url = request.url;
     if(url == '/'){
