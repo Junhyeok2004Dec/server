@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+    <head>
+        <title> 제주대학교 2023년도 캔 위성 프로젝트 </title>
+        <style>
+            p {
+              color: #26b72b;
+            }
+            </style>
+            
+    </head>
+
+    <body>
+
+        <script src = "server.js"></script>
+        <h1> 2023캔위성!
+        </h1>
+
+
+        <input type="text", id="input"> <!-- 임시-->
+        <button type="button", id="inputBtn", onClick = "send();">asd</button>
+
+
+        <form method = "post", action = ".\send">
+            <h1> 위성 데이터 요청</h1>
+            고도 : <input type = "text" name = "alt">
+            <br>
+            속도 : <input type = "text" name = "velocity">
+            <br>
+            이미지 : <input type = "file" name = "웹캠">
+
+            
+
+            <input type = "submit" name = "submit">
+        </form>
+
+    </body>
+</html>
